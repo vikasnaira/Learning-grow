@@ -14,7 +14,7 @@ export default function DashboardClient({ courses }) {
     <div className="flex text-white max-h-screen overflow-hidden">
       <SidebarWrap />
 
-      <main className="flex-1 md:p-6 p-6 md:mt-0 mt-10 overflow-y-auto">
+      <main className="flex-1 md:p-6 p-6 md:mt-0 mt-10 bg-black overflow-y-auto">
         
         {/* Header Section */}
         <header className="mb-8 flex flex-col md:flex-row items-start justify-between rounded-lg py-2 md:px-4 px-2">

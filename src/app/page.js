@@ -7,7 +7,7 @@ export default async function Home() {
 
   if (coursesError) {
     return (
-      <div className="flex h-screen items-center bg-black justify-center text-red-500">
+      <div className="flex h-screen items-center  justify-center text-red-500">
         Error loading data
       </div>
     );

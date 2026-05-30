@@ -9,7 +9,7 @@ export default function SidebarWrapper() {
 
   return (
     <>
-      {/* MENU BUTTON */}
+   
       <button
         onClick={() => setOpen(!open)}
         className="md:hidden fixed top-4 left-4 z-50"
@@ -20,7 +20,7 @@ export default function SidebarWrapper() {
       {/* SIDEBAR */}
        {open && (
         <div
-          className="fixed inset-0 bg-black/20 backdrop-blur-xs z-40 md:hidden"
+          className="fixed h-screen inset-0 bg-black/20 backdrop-blur-xs z-40 md:hidden"
           onClick={() => setOpen(false)}
         />
       )}
@@ -33,6 +33,7 @@ export default function SidebarWrapper() {
         `}
       >
         <Sidebar />
+      
       </div>
     </>
   );

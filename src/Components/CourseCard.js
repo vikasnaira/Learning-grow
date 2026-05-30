@@ -14,7 +14,7 @@ const CourseCard = ({ title, progress, iconName }) => {
       whileHover={{ scale: 1.02 }}
       initial={{ opacity: 0, y: 30 }}
       whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true, amount: 0.2 }}
+      viewport={{ once:false, amount: 0.2 }}
       
       transition={{
         type: "spring",
@@ -57,7 +57,7 @@ const CourseCard = ({ title, progress, iconName }) => {
               className="h-full rounded-full bg-blue-500"
               initial={{ width: 0 }}
               whileInView={{ width: `${progress}%` }}
-              viewport={{ once: true, amount: 0.2 }}
+              viewport={{ once:false, amount: 0.2 }}
               transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
             />
           </div>

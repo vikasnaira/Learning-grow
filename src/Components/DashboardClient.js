@@ -11,7 +11,7 @@ export default function DashboardClient({ courses }) {
   const [currentUser, setCurrentUser] = useState("Alex");
 
   return (
-    <div className="flex text-white max-h-screen overflow-hidden">
+    <div className="flex text-white max-h-screen overflow-hidden bg-black">
       <SidebarWrap />
 
       <main className="flex-1 md:p-6 p-6 md:mt-0 mt-10 bg-black overflow-y-auto">
@@ -44,6 +44,7 @@ export default function DashboardClient({ courses }) {
             </button>
           </div>
         </header>
+
 
         <section>
           <HeroCard />
